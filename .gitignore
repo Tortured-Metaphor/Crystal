@@ -1,0 +1,28 @@
+# Crystal build artifacts
+/crystal-shapes
+*.dwarf
+
+# Dependencies
+/lib/
+/.shards/
+shard.lock
+
+# Crystal cache
+/.crystal/
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+/tmp/

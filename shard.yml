@@ -1,0 +1,18 @@
+name: crystal-shapes
+version: 0.1.0
+
+authors:
+  - Crystal Shapes Game
+
+targets:
+  crystal-shapes:
+    main: src/crystal_shapes.cr
+
+crystal: ">= 1.0.0"
+
+license: MIT
+
+dependencies:
+  raylib-cr:
+    github: sol-vin/raylib-cr
+    branch: master
